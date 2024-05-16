@@ -1,0 +1,23 @@
+storageAccountName = "tfstatedd972bd4a91a83bf"
+resourceGroupName = "RG_PIX_2.0"
+sp_client_id = "31acd114-17ff-4fea-b175-47f18015ce6d"
+sp_client_password = "azure-cli-2023-03-22-21-05-22"
+vnet_aks_address_space = "10.50.16.0/22"
+aks_subnet_address_space = "10.50.17.0/24"
+vnet_aks_name = "vnet-aks-psti"
+defaultNodeVmSize = "Standard_F8s_v2"
+applicationNodeVmSize = "Standard_F16s_v2"
+defaultNodeCount = 2
+defaultNodePoolMaxCount = 4
+appNodeVmCount = 2
+aksClusterName = "PROD_SHARED_AKS_1"
+#vm_count_offset = 1
+#nodeVmSize = "Standard_B2ms"
+#nodeCount = 2
+defaultNodePoolName = "prdaks1np1"
+applicationNodePoolName = "prdkappnp1"
+appNodePoolMaxCount = 4
+appNodePoolMinCount = 4
+enableNodePoolAutoScale = true
+authenticationKey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRR4KPda/2AnyIc4RwasGl0HBhEzuQsKhu5frho736FspYwOeYjCxM7Qhe7Ylm+H816CGtWyzXNxIJBdE8TNduH9cjZyhS2p5nqzH+bPUxoNdpgP4XZxvx+A3cMcBhb04yuJ/aqYdserK8fz/i99iNOpSpu7ReOhEI22gZX4zZn0S3rCsYo7JYrqBksX8SaU7bLjH9Awow77qUCW3cuCJF+0725CdZ50IGEqZwyOQoGlboqVgOwPJF59i0eH3wFiP9ZSV9rFeYtGA+SWacUFx2pSKUaka+6oJhbU/8hqinyiyiQh/T1b1bAGOGUNjrzpnh8EM50J4HtK79S9ltf12ns4K+53Ce4unkk7bP5GPKcSZcF52Ry6FACgrNaa4EFJxexdHp7GZtWuljuvh4FNKvaCeo7puCj7SoM2Z7wr3Q9ZlDvzZM/cpfuCUAv0KjRlSx/XMNDSECF5N9JVhWb+7F2Rjp6wvRXBZC7+Sj9a0+3PGm2E+BlGrlnI4wnRg+2MKLWhSjNNXCQTuzuBq7o89HMGR6vdzNCXLD4kxFRsnka/ZTbGWl6FgL9co9SEQgtwfggzSHTzNkrOyQXbaBi21spADhJcypFOsflRGlXb90wgiCnO0VvHjbRC2CnpXVP2/b9kUQ5UrcpxUy9BMhk97rLh5kOz+BzGD75KwfzVbu+w== sysadmin"
+roleContributorScopeRGPIX="/subscriptions/7afecc64-bf82-49b6-8e81-429aca614234/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
